@@ -4,8 +4,6 @@ from uuid import uuid4
 
 class Note(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid4, editable=False)
-    #TODO: Add user/author
-    #TODO: Tagging or category system
     title = models.CharField(max_length=200)
     content = models.TextField(blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
