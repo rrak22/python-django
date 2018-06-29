@@ -10,6 +10,7 @@ gunicorn = "*"
 whitenoise = "*"
 python-decouple = "*"
 djangorestframework = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
